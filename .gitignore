@@ -1,4 +1,8 @@
 venv/
 gitignore/
 _pycache_/
-data/*
+# Ignore raw data
+data/raw/*
+
+# BUT allow DVC metadata
+!data/raw/*.dvc
