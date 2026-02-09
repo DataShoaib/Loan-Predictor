@@ -2,11 +2,11 @@ import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt 
 import seaborn as sns
-from uttils.logger import getlogger
+from uttils.logger import get_logger
 import os
 
 
-logger=getlogger('data_ingestion')
+logger=get_logger('data_ingestion')
 
 def load_data(path:str) -> pd.DataFrame:
     try:
@@ -35,6 +35,7 @@ def clean_data(data:pd.DataFrame)-> pd.DataFrame:
 def save_data(data:pd.DataFrame,path:str):
     try:
         logger.info(f'attempting to save cleaned data to path: {path}')
+        os.makedirs(path, exist_ok=True)
         path=os.path.join(path,'cleaned_data.csv')
         data.to_csv(path,index=False)
         logger.info(f'successfully saved cleaned data to path: {path}')
@@ -42,7 +43,10 @@ def save_data(data:pd.DataFrame,path:str):
         logger.error(f'an error occurred while saving data: {e}')
 
 def main():
-    data=load_data('data/raw/loan_approval_prediction.csv')
+    data=load_data('data/raw/loan_approval_dataset.csv')
     if data is not None:
         data=clean_data(data)
         save_data(data,'data/processed')
+
+if __name__=='__main__':
+    main()        

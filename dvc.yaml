@@ -1,6 +1,6 @@
 stages:
   data_ingesion:
-    cmd: python src/data/data_ingesion.py
+    cmd: python -m src.data.data_ingesion
     deps:
     - data/raw/loan_approval_dataset.csv
     - src/data/data_ingesion.py

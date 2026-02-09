@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  data_ingesion:
+    cmd: python -m src.data.data_ingesion
+    deps:
+    - path: data/raw/loan_approval_dataset.csv
+      hash: md5
+      md5: 3d8ecb6acc324137fe4affc13655564f
+      size: 384337
+    - path: src/data/data_ingesion.py
+      hash: md5
+      md5: a5005f548e4a833bd44dbf82c1c965a6
+      size: 1920
+    outs:
+    - path: data/processed/cleaned_data.csv
+      hash: md5
+      md5: 0d298a85d797e033c74f8aa2912cf08d
+      size: 384157

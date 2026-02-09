@@ -6,3 +6,17 @@ data/raw/*
 
 # BUT allow DVC metadata
 !data/raw/*.dvc
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+logs/
+
+# Processed data (generated via pipeline)
+data/processed/
+
+# DVC internals (lock file auto generated)
+.dvc/cache/
