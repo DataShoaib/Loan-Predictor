@@ -13,8 +13,8 @@ stages:
       size: 1920
     - path: uttils/logger.py
       hash: md5
-      md5: c84e83d207a77382682b82b841b079a9
-      size: 1352
+      md5: 1fe9d70bdf8f09563becc74a11c04afb
+      size: 1353
     outs:
     - path: data/processed/cleaned_data.csv
       hash: md5
@@ -33,8 +33,8 @@ stages:
       size: 5180
     - path: uttils/logger.py
       hash: md5
-      md5: c84e83d207a77382682b82b841b079a9
-      size: 1352
+      md5: 1fe9d70bdf8f09563becc74a11c04afb
+      size: 1353
     outs:
     - path: models/model_pipe.pkl
       hash: md5
@@ -61,8 +61,8 @@ stages:
       size: 3520
     - path: uttils/logger.py
       hash: md5
-      md5: c84e83d207a77382682b82b841b079a9
-      size: 1352
+      md5: 1fe9d70bdf8f09563becc74a11c04afb
+      size: 1353
     outs:
     - path: reports/figures/cm.png
       hash: md5

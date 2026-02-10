@@ -12,8 +12,6 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Logs
-logs/
 
 # Processed data (generated via pipeline)
 data/processed/

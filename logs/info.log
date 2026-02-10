@@ -115,3 +115,24 @@
 2026-02-10 22:44:23 | INFO | model_evaluation | file save successfully at path:reports/metric_info.json
 2026-02-10 22:44:23 | INFO | model_evaluation | starting confusion matrix plotting
 2026-02-10 22:44:24 | INFO | model_evaluation | Confusion matrix saved to reports/figures/cm.png
+2026-02-10 22:54:06 | INFO | data_ingestion | Attempting to load data from path: data/raw/loan_approval_dataset.csv
+2026-02-10 22:54:06 | INFO | data_ingestion | Successfully loaded data with shape: (4269, 13)
+2026-02-10 22:54:06 | INFO | data_ingestion | starting data cleaning process
+2026-02-10 22:54:06 | INFO | data_ingestion | data cleaning process completed successfully
+2026-02-10 22:54:06 | INFO | data_ingestion | attempting to save cleaned data to path: data/processed
+2026-02-10 22:54:06 | INFO | data_ingestion | successfully saved cleaned data to path: data/processed\cleaned_data.csv
+2026-02-10 22:54:10 | INFO | feature_engineering | Loading data from path: data/processed/cleaned_data.csv
+2026-02-10 22:54:11 | INFO | feature_engineering | Data loaded successfully.
+2026-02-10 22:54:11 | INFO | feature_engineering | splitting data into fetures and target variable started
+2026-02-10 22:54:11 | INFO | feature_engineering | data splitting completed successfully
+2026-02-10 22:54:11 | INFO | feature_engineering | saving test data to path:data/test_data
+2026-02-10 22:54:11 | INFO | feature_engineering | starting feature engineering process
+2026-02-10 22:54:11 | INFO | feature_engineering | model training staretd
+2026-02-10 22:54:11 | INFO | feature_engineering | model training completed successfully
+2026-02-10 22:54:11 | INFO | feature_engineering | saving model to path:models/model_pipe.pkl
+2026-02-10 22:54:11 | INFO | feature_engineering | model saved successfully
+2026-02-10 22:54:16 | INFO | model_evaluation | starting model evaluation
+2026-02-10 22:54:16 | INFO | model_evaluation | saving metric information to path:reports/metric_info.json
+2026-02-10 22:54:16 | INFO | model_evaluation | file save successfully at path:reports/metric_info.json
+2026-02-10 22:54:16 | INFO | model_evaluation | starting confusion matrix plotting
+2026-02-10 22:54:16 | INFO | model_evaluation | Confusion matrix saved to reports/figures/cm.png
