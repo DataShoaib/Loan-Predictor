@@ -15,3 +15,14 @@ stages:
     - uttils/logger.py
     outs:
     - models/model_pipe.pkl
+  model_evaluation:
+    cmd: python -m src.evaluation.model_evaluation
+    deps:
+    - data/test_data/x_test.csv
+    - data/test_data/y_test.csv
+    - models/model_pipe.pkl
+    - src/evaluation/model_evaluation.py
+    - uttils/logger.py
+    outs:
+    - reports/figures/cm.png
+    - reports/metric_info.json
