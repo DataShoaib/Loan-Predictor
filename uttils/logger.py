@@ -5,7 +5,7 @@ import os
 
 def get_logger(
     name: str,
-    log_file: str = "app.log",
+    log_file: str = "info.log",
     level: int = logging.INFO,
 ):
     """

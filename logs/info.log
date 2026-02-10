@@ -1,0 +1,117 @@
+2026-02-09 22:36:50 | INFO | data_ingestion | Attempting to load data from path: data/raw/loan_approval_dataset.csv
+2026-02-09 22:36:50 | INFO | data_ingestion | Successfully loaded data with shape: (4269, 13)
+2026-02-09 22:36:50 | INFO | data_ingestion | starting data cleaning process
+2026-02-09 22:36:51 | INFO | data_ingestion | data cleaning process completed successfully
+2026-02-09 22:36:51 | INFO | data_ingestion | attempting to save cleaned data to path: data/processed
+2026-02-09 22:36:51 | INFO | data_ingestion | successfully saved cleaned data to path: data/processed\cleaned_data.csv
+2026-02-10 15:36:49 | INFO | feature_engineering | Loading data from path: data/processed/cleaned_data.csv
+2026-02-10 15:36:49 | INFO | feature_engineering | Data loaded successfully.
+2026-02-10 15:36:49 | INFO | feature_engineering | splitting data into fetures and target variable started
+2026-02-10 15:36:49 | INFO | feature_engineering | data splitting completed successfully
+2026-02-10 15:36:49 | INFO | feature_engineering | starting feature engineering process
+2026-02-10 15:36:49 | ERROR | feature_engineering | an error occurred during feature engineering: A given column is not a column of the dataframe
+2026-02-10 15:36:49 | ERROR | feature_engineering | an error occurred in the main function of feature engineering: feature engineering failed
+2026-02-10 15:44:10 | INFO | feature_engineering | Loading data from path: data/processed/cleaned_data.csv
+2026-02-10 15:44:10 | INFO | feature_engineering | Data loaded successfully.
+2026-02-10 15:44:10 | INFO | feature_engineering | splitting data into fetures and target variable started
+2026-02-10 15:44:10 | INFO | feature_engineering | data splitting completed successfully
+2026-02-10 15:44:10 | INFO | feature_engineering | starting feature engineering process
+2026-02-10 15:44:10 | ERROR | feature_engineering | an error occurred during feature engineering: A given column is not a column of the dataframe
+2026-02-10 15:44:10 | ERROR | feature_engineering | an error occurred in the main function of feature engineering: feature engineering failed
+2026-02-10 15:52:05 | INFO | feature_engineering | Loading data from path: data/processed/cleaned_data.csv
+2026-02-10 15:52:05 | INFO | feature_engineering | Data loaded successfully.
+2026-02-10 15:52:05 | INFO | feature_engineering | splitting data into fetures and target variable started
+2026-02-10 15:52:05 | INFO | feature_engineering | data splitting completed successfully
+2026-02-10 15:52:05 | INFO | feature_engineering | starting feature engineering process
+2026-02-10 15:52:05 | ERROR | feature_engineering | an error occurred during feature engineering: Estimator log does not provide get_feature_names_out. Did you mean to call pipeline[:-1].get_feature_names_out()?
+2026-02-10 15:52:05 | ERROR | feature_engineering | an error occurred in the main function of feature engineering: feature engineering failed
+2026-02-10 15:55:08 | INFO | feature_engineering | Loading data from path: data/processed/cleaned_data.csv
+2026-02-10 15:55:08 | INFO | feature_engineering | Data loaded successfully.
+2026-02-10 15:55:08 | INFO | feature_engineering | splitting data into fetures and target variable started
+2026-02-10 15:55:08 | INFO | feature_engineering | data splitting completed successfully
+2026-02-10 15:55:08 | INFO | feature_engineering | starting feature engineering process
+2026-02-10 15:55:08 | ERROR | feature_engineering | an error occurred during feature engineering: 'ColumnTransformer' object is not subscriptable
+2026-02-10 15:55:08 | ERROR | feature_engineering | an error occurred in the main function of feature engineering: feature engineering failed
+2026-02-10 15:59:01 | INFO | feature_engineering | Loading data from path: data/processed/cleaned_data.csv
+2026-02-10 15:59:01 | INFO | feature_engineering | Data loaded successfully.
+2026-02-10 15:59:01 | INFO | feature_engineering | Splitting data into features and target variable started
+2026-02-10 15:59:01 | INFO | feature_engineering | Data splitting completed successfully
+2026-02-10 15:59:01 | INFO | feature_engineering | Starting feature engineering process
+2026-02-10 15:59:01 | ERROR | feature_engineering | An error occurred during feature engineering: Estimator log does not provide get_feature_names_out. Did you mean to call pipeline[:-1].get_feature_names_out()?
+2026-02-10 15:59:01 | ERROR | feature_engineering | An error occurred in the main function of feature engineering: Feature engineering failed
+2026-02-10 15:59:16 | INFO | feature_engineering | Loading data from path: data/processed/cleaned_data.csv
+2026-02-10 15:59:16 | INFO | feature_engineering | Data loaded successfully.
+2026-02-10 15:59:16 | INFO | feature_engineering | Splitting data into features and target variable started
+2026-02-10 15:59:16 | INFO | feature_engineering | Data splitting completed successfully
+2026-02-10 15:59:16 | INFO | feature_engineering | Starting feature engineering process
+2026-02-10 15:59:16 | ERROR | feature_engineering | An error occurred during feature engineering: Estimator log does not provide get_feature_names_out. Did you mean to call pipeline[:-1].get_feature_names_out()?
+2026-02-10 15:59:16 | ERROR | feature_engineering | An error occurred in the main function of feature engineering: Feature engineering failed
+2026-02-10 16:02:54 | INFO | feature_engineering | Loading data from path: data/processed/cleaned_data.csv
+2026-02-10 16:02:54 | INFO | feature_engineering | Data loaded successfully.
+2026-02-10 16:02:54 | INFO | feature_engineering | Splitting data into features and target variable started
+2026-02-10 16:02:54 | INFO | feature_engineering | Data splitting completed successfully
+2026-02-10 16:02:54 | INFO | feature_engineering | Starting feature engineering process
+2026-02-10 16:02:54 | ERROR | feature_engineering | An error occurred during feature engineering: Shape of passed values is (3415, 11), indices imply (3415, 9)
+2026-02-10 16:02:54 | ERROR | feature_engineering | An error occurred in the main function of feature engineering: Feature engineering failed
+2026-02-10 16:40:13 | INFO | data_ingestion | Attempting to load data from path: data/raw/loan_approval_dataset.csv
+2026-02-10 16:40:13 | INFO | data_ingestion | Successfully loaded data with shape: (4269, 13)
+2026-02-10 16:40:13 | INFO | data_ingestion | starting data cleaning process
+2026-02-10 16:40:13 | INFO | data_ingestion | data cleaning process completed successfully
+2026-02-10 16:40:13 | INFO | data_ingestion | attempting to save cleaned data to path: data/processed
+2026-02-10 16:40:13 | INFO | data_ingestion | successfully saved cleaned data to path: data/processed\cleaned_data.csv
+2026-02-10 16:41:54 | INFO | feature_engineering | Loading data from path: data/processed/cleaned_data.csv
+2026-02-10 16:41:54 | INFO | feature_engineering | Data loaded successfully.
+2026-02-10 16:41:54 | INFO | feature_engineering | splitting data into fetures and target variable started
+2026-02-10 16:41:54 | INFO | feature_engineering | data splitting completed successfully
+2026-02-10 16:41:54 | INFO | feature_engineering | starting feature engineering process
+2026-02-10 16:41:54 | ERROR | feature_engineering | an error occurred during feature engineering: cannot access local variable 'x_test' where it is not associated with a value
+2026-02-10 16:41:54 | ERROR | feature_engineering | an error occurred in main function: feature engineering or model training failed
+2026-02-10 16:43:00 | INFO | feature_engineering | Loading data from path: data/processed/cleaned_data.csv
+2026-02-10 16:43:00 | INFO | feature_engineering | Data loaded successfully.
+2026-02-10 16:43:00 | INFO | feature_engineering | splitting data into fetures and target variable started
+2026-02-10 16:43:00 | INFO | feature_engineering | data splitting completed successfully
+2026-02-10 16:43:00 | INFO | feature_engineering | starting feature engineering process
+2026-02-10 16:43:00 | INFO | feature_engineering | model training staretd
+2026-02-10 16:43:00 | INFO | feature_engineering | model training completed successfully
+2026-02-10 16:43:00 | INFO | feature_engineering | saving model to path:models/model_pipe.pkl
+2026-02-10 16:43:00 | INFO | feature_engineering | model saved successfully
+2026-02-10 17:02:06 | INFO | feature_engineering | Loading data from path: data/processed/cleaned_data.csv
+2026-02-10 17:02:06 | INFO | feature_engineering | Data loaded successfully.
+2026-02-10 17:02:06 | INFO | feature_engineering | splitting data into fetures and target variable started
+2026-02-10 17:02:06 | INFO | feature_engineering | data splitting completed successfully
+2026-02-10 17:02:06 | INFO | feature_engineering | starting feature engineering process
+2026-02-10 17:02:06 | INFO | feature_engineering | model training staretd
+2026-02-10 17:02:07 | INFO | feature_engineering | model training completed successfully
+2026-02-10 17:02:07 | INFO | feature_engineering | saving model to path:models/model_pipe.pkl
+2026-02-10 17:02:07 | INFO | feature_engineering | model saved successfully
+2026-02-10 17:04:37 | INFO | feature_engineering | Loading data from path: data/processed/cleaned_data.csv
+2026-02-10 17:04:37 | INFO | feature_engineering | Data loaded successfully.
+2026-02-10 17:04:37 | INFO | feature_engineering | splitting data into fetures and target variable started
+2026-02-10 17:04:37 | INFO | feature_engineering | data splitting completed successfully
+2026-02-10 17:04:37 | INFO | feature_engineering | saving test data to path:data/test_data
+2026-02-10 17:04:37 | INFO | feature_engineering | starting feature engineering process
+2026-02-10 17:04:37 | INFO | feature_engineering | model training staretd
+2026-02-10 17:04:38 | INFO | feature_engineering | model training completed successfully
+2026-02-10 17:04:38 | INFO | feature_engineering | saving model to path:models/model_pipe.pkl
+2026-02-10 17:04:38 | INFO | feature_engineering | model saved successfully
+2026-02-10 22:30:15 | INFO | model_evaluation | starting model evaluation
+2026-02-10 22:30:15 | ERROR | model_evaluation | an error accured while model evaluation: columns are missing: {'loan_to_income'}
+2026-02-10 22:30:15 | INFO | model_evaluation | saving metric information to path:reports/metric_info.json
+2026-02-10 22:30:15 | INFO | model_evaluation | file save successfully at path:reports/metric_info.json
+2026-02-10 22:30:15 | INFO | model_evaluation | starting confusion matrix plotting
+2026-02-10 22:30:15 | ERROR | model_evaluation | an error accured while plotting confusion matrix: columns are missing: {'loan_to_income'}
+2026-02-10 22:39:48 | INFO | model_evaluation | starting model evaluation
+2026-02-10 22:39:48 | INFO | model_evaluation | saving metric information to path:reports/metric_info.json
+2026-02-10 22:39:48 | ERROR | model_evaluation | an error accured while saving the metric_info: keys must be str, int, float, bool or None, not function
+2026-02-10 22:39:48 | INFO | model_evaluation | starting confusion matrix plotting
+2026-02-10 22:39:51 | INFO | model_evaluation | Confusion matrix saved to reports/figures/cm.png
+2026-02-10 22:42:47 | INFO | model_evaluation | starting model evaluation
+2026-02-10 22:42:47 | INFO | model_evaluation | saving metric information to path:reports/metric_info.json
+2026-02-10 22:42:47 | ERROR | model_evaluation | an error accured while saving the metric_info: keys must be str, int, float, bool or None, not function
+2026-02-10 22:42:47 | INFO | model_evaluation | starting confusion matrix plotting
+2026-02-10 22:42:48 | INFO | model_evaluation | Confusion matrix saved to reports/figures/cm.png
+2026-02-10 22:44:23 | INFO | model_evaluation | starting model evaluation
+2026-02-10 22:44:23 | INFO | model_evaluation | saving metric information to path:reports/metric_info.json
+2026-02-10 22:44:23 | INFO | model_evaluation | file save successfully at path:reports/metric_info.json
+2026-02-10 22:44:23 | INFO | model_evaluation | starting confusion matrix plotting
+2026-02-10 22:44:24 | INFO | model_evaluation | Confusion matrix saved to reports/figures/cm.png
