@@ -21,3 +21,4 @@ data/processed/
 # DVC internals (lock file auto generated)
 .dvc/cache/
 models/
+data/test_data/
