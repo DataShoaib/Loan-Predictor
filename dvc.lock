@@ -11,8 +11,32 @@ stages:
       hash: md5
       md5: a5005f548e4a833bd44dbf82c1c965a6
       size: 1920
+    - path: uttils/logger.py
+      hash: md5
+      md5: c84e83d207a77382682b82b841b079a9
+      size: 1352
     outs:
     - path: data/processed/cleaned_data.csv
       hash: md5
       md5: 0d298a85d797e033c74f8aa2912cf08d
       size: 384157
+  feature_engineering_and_model_training:
+    cmd: python -m src.features.feature_engineering_and_model_training
+    deps:
+    - path: data/processed/cleaned_data.csv
+      hash: md5
+      md5: 0d298a85d797e033c74f8aa2912cf08d
+      size: 384157
+    - path: src/features/feature_engineering_and_model_training.py
+      hash: md5
+      md5: 6a1e9ac5b267113f7811887bc07a45e4
+      size: 4687
+    - path: uttils/logger.py
+      hash: md5
+      md5: c84e83d207a77382682b82b841b079a9
+      size: 1352
+    outs:
+    - path: models/model_pipe.pkl
+      hash: md5
+      md5: 96582025e2b2d32892685e1ea9da577c
+      size: 4217

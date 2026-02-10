@@ -4,5 +4,14 @@ stages:
     deps:
     - data/raw/loan_approval_dataset.csv
     - src/data/data_ingesion.py
+    - uttils/logger.py
     outs:
     - data/processed/cleaned_data.csv
+  feature_engineering_and_model_training:
+    cmd: python -m src.features.feature_engineering_and_model_training
+    deps:
+    - data/processed/cleaned_data.csv
+    - src/features/feature_engineering_and_model_training.py
+    - uttils/logger.py
+    outs:
+    - models/model_pipe.pkl
