@@ -29,8 +29,8 @@ stages:
       size: 384157
     - path: src/features/feature_engineering_and_model_training.py
       hash: md5
-      md5: 6a1e9ac5b267113f7811887bc07a45e4
-      size: 4687
+      md5: 54ef5fbdfcd1a2130549250450b1a184
+      size: 5180
     - path: uttils/logger.py
       hash: md5
       md5: c84e83d207a77382682b82b841b079a9

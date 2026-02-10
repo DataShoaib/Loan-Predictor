@@ -42,6 +42,17 @@ def splitting_data(data:str)->pd.DataFrame:
     except Exception as e:
         logger.error(f"an error occurred while splitting data: {e}")
         raise Exception('data splitting failed')
+    
+
+def save_test_data(x_test:pd.DataFrame,y_test:pd.DataFrame,test_data_path:str)-> None:
+    try:
+        logger.info(f"saving test data to path:{test_data_path}")    
+        x_test.to_csv(os.path.join(test_data_path,'x_test.csv'),index=False)
+        y_test.to_csv(os.path.join(test_data_path,'y_test.csv'),index=False)
+    except Exception as e:
+        logger.error(f'an error accured during saving test data: {e}')
+
+
 
 def feature_engineering_and_model_training(x_train:pd.DataFrame,y_train:pd.DataFrame)->Pipeline:
     try:
@@ -111,6 +122,7 @@ def main():
     try:
         data=load_data('data/processed/cleaned_data.csv')
         x_train,x_test,y_train,y_test=splitting_data(data)
+        save_test_data(x_test,y_test,'data/test_data')
         model=feature_engineering_and_model_training(x_train,y_train)
         save_model(model,'models/model_pipe.pkl')
     except Exception as e:
