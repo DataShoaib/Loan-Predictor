@@ -136,3 +136,234 @@
 2026-02-10 22:54:16 | INFO | model_evaluation | file save successfully at path:reports/metric_info.json
 2026-02-10 22:54:16 | INFO | model_evaluation | starting confusion matrix plotting
 2026-02-10 22:54:16 | INFO | model_evaluation | Confusion matrix saved to reports/figures/cm.png
+2026-02-11 18:42:07 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 18:42:08 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 18:42:39 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 18:42:39 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 18:43:18 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 18:43:18 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 18:44:15 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 18:44:15 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 18:46:37 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 18:46:37 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 18:46:37 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 18:46:37 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 18:46:42 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 18:46:42 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 18:46:42 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 18:46:42 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 18:46:46 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 18:46:46 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 18:46:47 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 18:46:47 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 18:51:12 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 18:51:12 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 18:53:39 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 18:53:40 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 18:53:44 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 18:53:45 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 18:53:53 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 18:53:53 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 18:58:13 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 18:58:13 | INFO | fast_api | feature eng. done successfully
+2026-02-11 19:00:03 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:00:08 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:00:46 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 19:00:46 | INFO | fast_api | feature eng. done successfully
+2026-02-11 19:03:21 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:03:29 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:03:36 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:04:19 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:04:51 | INFO | data_ingestion | Attempting to load data from path: data/raw/loan_approval_dataset.csv
+2026-02-11 19:04:51 | INFO | data_ingestion | Successfully loaded data with shape: (4269, 13)
+2026-02-11 19:04:51 | INFO | data_ingestion | starting data cleaning process
+2026-02-11 19:04:51 | INFO | data_ingestion | data cleaning process completed successfully
+2026-02-11 19:04:51 | INFO | data_ingestion | attempting to save cleaned data to path: data/processed
+2026-02-11 19:04:51 | INFO | data_ingestion | successfully saved cleaned data to path: data/processed\cleaned_data.csv
+2026-02-11 19:04:55 | INFO | feature_engineering | Loading data from path: data/processed/cleaned_data.csv
+2026-02-11 19:04:55 | INFO | feature_engineering | Data loaded successfully.
+2026-02-11 19:04:55 | INFO | feature_engineering | splitting data into fetures and target variable started
+2026-02-11 19:04:55 | INFO | feature_engineering | data splitting completed successfully
+2026-02-11 19:04:55 | INFO | feature_engineering | saving test data to path:data/test_data
+2026-02-11 19:04:55 | INFO | feature_engineering | starting feature engineering process
+2026-02-11 19:04:55 | INFO | feature_engineering | model training staretd
+2026-02-11 19:04:55 | INFO | feature_engineering | model training completed successfully
+2026-02-11 19:04:55 | INFO | feature_engineering | saving model to path:models/model_pipe.pkl
+2026-02-11 19:04:55 | INFO | feature_engineering | model saved successfully
+2026-02-11 19:04:59 | INFO | model_evaluation | starting model evaluation
+2026-02-11 19:04:59 | INFO | model_evaluation | saving metric information to path:reports/metric_info.json
+2026-02-11 19:04:59 | INFO | model_evaluation | file save successfully at path:reports/metric_info.json
+2026-02-11 19:04:59 | INFO | model_evaluation | starting confusion matrix plotting
+2026-02-11 19:05:00 | INFO | model_evaluation | Confusion matrix saved to reports/figures/cm.png
+2026-02-11 19:06:59 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 19:06:59 | INFO | fast_api | feature eng. done successfully
+2026-02-11 19:11:51 | INFO | feature_engineering | Loading data from path: data/processed/cleaned_data.csv
+2026-02-11 19:11:51 | INFO | feature_engineering | Data loaded successfully.
+2026-02-11 19:11:51 | INFO | feature_engineering | splitting data into fetures and target variable started
+2026-02-11 19:11:51 | INFO | feature_engineering | data splitting completed successfully
+2026-02-11 19:11:51 | INFO | feature_engineering | saving test data to path:data/test_data
+2026-02-11 19:11:51 | INFO | feature_engineering | starting feature engineering process
+2026-02-11 19:11:51 | INFO | feature_engineering | model training staretd
+2026-02-11 19:11:51 | INFO | feature_engineering | model training completed successfully
+2026-02-11 19:11:51 | INFO | feature_engineering | saving model to path:models/model_pipe.pkl
+2026-02-11 19:11:51 | INFO | feature_engineering | model saved successfully
+2026-02-11 19:12:44 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 19:12:44 | INFO | fast_api | feature eng. done successfully
+2026-02-11 19:15:07 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:16:23 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 19:16:23 | INFO | fast_api | feature eng. done successfully
+2026-02-11 19:17:11 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 19:17:11 | INFO | fast_api | feature eng. done successfully
+2026-02-11 19:19:50 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:19:58 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 19:19:58 | INFO | fast_api | feature eng. done successfully
+2026-02-11 19:20:39 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:22:48 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:22:48 | ERROR | fast_api | an error accured during the loading model:name 'model' is not defined
+2026-02-11 19:22:54 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:22:54 | ERROR | fast_api | an error accured during the loading model:name 'model' is not defined
+2026-02-11 19:23:18 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:23:18 | ERROR | fast_api | an error accured during the loading model:name 'model' is not defined
+2026-02-11 19:23:23 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:23:23 | ERROR | fast_api | an error accured during the loading model:module 'pickle' has no attribute 'ope'
+2026-02-11 19:23:45 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:23:45 | ERROR | fast_api | an error accured during the loading model:load() missing required argument 'file' (pos 1)
+2026-02-11 19:23:54 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:23:54 | ERROR | fast_api | an error accured during the loading model:name 'model' is not defined
+2026-02-11 19:23:59 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:26:12 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:30:47 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:30:47 | ERROR | fast_api | file not found at models/model_pipe.pkl
+2026-02-11 19:33:20 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:33:49 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 19:33:49 | INFO | fast_api | feature eng. done successfully
+2026-02-11 19:38:08 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:38:33 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:39:06 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 19:39:06 | INFO | fast_api | feature eng. done successfully
+2026-02-11 19:41:08 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:44:54 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:44:54 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 19:44:58 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:44:58 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 19:47:45 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:47:46 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 19:51:12 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:51:12 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 19:53:56 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:53:56 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 19:56:23 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:56:24 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 19:56:24 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 19:56:24 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 19:56:56 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 19:56:56 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:04:40 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 21:04:40 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 21:05:11 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:05:11 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:11:07 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 21:11:07 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 21:11:14 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 21:11:14 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 21:12:32 | INFO | feature_engineering | Loading data from path: data/processed/cleaned_data.csv
+2026-02-11 21:12:32 | INFO | feature_engineering | Data loaded successfully.
+2026-02-11 21:12:32 | INFO | feature_engineering | splitting data into fetures and target variable started
+2026-02-11 21:12:32 | INFO | feature_engineering | data splitting completed successfully
+2026-02-11 21:12:32 | INFO | feature_engineering | saving test data to path:data/test_data
+2026-02-11 21:12:32 | INFO | feature_engineering | starting feature engineering process
+2026-02-11 21:12:32 | INFO | feature_engineering | model training staretd
+2026-02-11 21:12:32 | INFO | feature_engineering | model training completed successfully
+2026-02-11 21:12:32 | INFO | feature_engineering | saving model to path:models/model_pipe.pkl
+2026-02-11 21:12:32 | INFO | feature_engineering | model saved successfully
+2026-02-11 21:12:36 | INFO | model_evaluation | starting model evaluation
+2026-02-11 21:12:36 | INFO | model_evaluation | saving metric information to path:reports/metric_info.json
+2026-02-11 21:12:36 | INFO | model_evaluation | file save successfully at path:reports/metric_info.json
+2026-02-11 21:12:36 | INFO | model_evaluation | starting confusion matrix plotting
+2026-02-11 21:12:37 | INFO | model_evaluation | Confusion matrix saved to reports/figures/cm.png
+2026-02-11 21:12:54 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:12:54 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:12:55 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:12:55 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:12:55 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:12:55 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:12:55 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:12:55 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:12:56 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:12:56 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:13:42 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 21:13:42 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 21:14:20 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:14:20 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:14:20 | INFO | fast_api | model predction:not approved and probablity:0.037103117282238376
+2026-02-11 21:16:30 | INFO | fast_api | try to loading the model:models/model_pipe.pkl
+2026-02-11 21:16:30 | INFO | fast_api | model loaded successfully from:models/model_pipe.pkl
+2026-02-11 21:16:55 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:16:55 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:16:55 | INFO | fast_api | model predction:not approved and probablity:0.037103117282238376
+2026-02-11 21:18:18 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:18:18 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:18:18 | INFO | fast_api | model predction:approved and probablity:0.999993814761148
+2026-02-11 21:18:37 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:18:37 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:18:37 | INFO | fast_api | model predction:approved and probablity:0.9999999999999996
+2026-02-11 21:19:16 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:19:16 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:19:16 | INFO | fast_api | model predction:approved and probablity:0.9999999999999991
+2026-02-11 21:19:35 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:19:35 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:19:35 | INFO | fast_api | model predction:approved and probablity:0.9999873032523323
+2026-02-11 21:20:27 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:20:27 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:20:27 | INFO | fast_api | model predction:approved and probablity:0.999980009225211
+2026-02-11 21:20:49 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:20:49 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:20:49 | INFO | fast_api | model predction:approved and probablity:0.9999917040054012
+2026-02-11 21:24:04 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:24:04 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:24:04 | INFO | fast_api | model predction:not approved and probablity:0.2838997291882398
+2026-02-11 21:24:19 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:24:19 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:24:19 | INFO | fast_api | model predction:approved and probablity:0.8319885596534587
+2026-02-11 21:24:36 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:24:36 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:24:36 | INFO | fast_api | model predction:approved and probablity:0.5835329961203524
+2026-02-11 21:24:52 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:24:52 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:24:52 | INFO | fast_api | model predction:not approved and probablity:0.2838997291882398
+2026-02-11 21:25:05 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:25:05 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:25:05 | INFO | fast_api | model predction:not approved and probablity:0.3843164620341734
+2026-02-11 21:25:15 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:25:15 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:25:15 | INFO | fast_api | model predction:approved and probablity:0.6067477618343023
+2026-02-11 21:25:25 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:25:25 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:25:25 | INFO | fast_api | model predction:approved and probablity:0.5516120042006681
+2026-02-11 21:25:31 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:25:31 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:25:31 | INFO | fast_api | model predction:not approved and probablity:0.49517965462866387
+2026-02-11 21:25:43 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:25:43 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:25:43 | INFO | fast_api | model predction:not approved and probablity:0.14784486851282136
+2026-02-11 21:25:50 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:25:50 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:25:50 | INFO | fast_api | model predction:not approved and probablity:0.18910498669264958
+2026-02-11 21:26:04 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:26:04 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:26:04 | INFO | fast_api | model predction:approved and probablity:0.7444351330210524
+2026-02-11 21:33:50 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:33:50 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:33:50 | INFO | fast_api | model predction:approved and probablity:0.6364448926528593
+2026-02-11 21:34:04 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:34:04 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:34:04 | INFO | fast_api | model predction:approved and probablity:0.6926346423850304
+2026-02-11 21:34:15 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:34:15 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:34:15 | INFO | fast_api | model predction:approved and probablity:0.7887592495095458
+2026-02-11 21:34:23 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 21:34:23 | INFO | fast_api | feature eng. done successfully
+2026-02-11 21:34:23 | INFO | fast_api | model predction:approved and probablity:0.9999998495870519
+2026-02-11 22:31:13 | INFO | fast_api | data retrieved successfully and feature eng start
+2026-02-11 22:31:13 | INFO | fast_api | feature eng. done successfully
+2026-02-11 22:31:13 | INFO | fast_api | model predction:not approved and probablity:0.037103117282238376

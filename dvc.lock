@@ -9,8 +9,8 @@ stages:
       size: 384337
     - path: src/data/data_ingesion.py
       hash: md5
-      md5: a5005f548e4a833bd44dbf82c1c965a6
-      size: 1920
+      md5: 98987bd87dcb387e848ef7c63393e6ce
+      size: 1973
     - path: uttils/logger.py
       hash: md5
       md5: 1fe9d70bdf8f09563becc74a11c04afb
@@ -18,43 +18,51 @@ stages:
     outs:
     - path: data/processed/cleaned_data.csv
       hash: md5
-      md5: 0d298a85d797e033c74f8aa2912cf08d
-      size: 384157
+      md5: b46929c88491060ae23dff070a8f262f
+      size: 363911
   feature_engineering_and_model_training:
     cmd: python -m src.features.feature_engineering_and_model_training
     deps:
     - path: data/processed/cleaned_data.csv
       hash: md5
-      md5: 0d298a85d797e033c74f8aa2912cf08d
-      size: 384157
+      md5: b46929c88491060ae23dff070a8f262f
+      size: 363911
     - path: src/features/feature_engineering_and_model_training.py
       hash: md5
-      md5: 54ef5fbdfcd1a2130549250450b1a184
-      size: 5180
+      md5: b5e0ce1d932636c9508a93e890bfed29
+      size: 5204
     - path: uttils/logger.py
       hash: md5
       md5: 1fe9d70bdf8f09563becc74a11c04afb
       size: 1353
     outs:
-    - path: models/model_pipe.pkl
-      hash: md5
-      md5: 96582025e2b2d32892685e1ea9da577c
-      size: 4217
-  model_evaluation:
-    cmd: python -m src.evaluation.model_evaluation
-    deps:
     - path: data/test_data/x_test.csv
       hash: md5
-      md5: 3929af50f5791aeb12f52d2075c79a1d
-      size: 68506
+      md5: fb7f4a5c7d3fd5bdf089f7d4f33a0bf3
+      size: 64469
     - path: data/test_data/y_test.csv
       hash: md5
       md5: f7c4447f2ff0d1c22b0cd29e3ab125f4
       size: 2575
     - path: models/model_pipe.pkl
       hash: md5
-      md5: 96582025e2b2d32892685e1ea9da577c
-      size: 4217
+      md5: 7bddad96a8159e1a85dc9ed91a06c48b
+      size: 4187
+  model_evaluation:
+    cmd: python -m src.evaluation.model_evaluation
+    deps:
+    - path: data/test_data/x_test.csv
+      hash: md5
+      md5: fb7f4a5c7d3fd5bdf089f7d4f33a0bf3
+      size: 64469
+    - path: data/test_data/y_test.csv
+      hash: md5
+      md5: f7c4447f2ff0d1c22b0cd29e3ab125f4
+      size: 2575
+    - path: models/model_pipe.pkl
+      hash: md5
+      md5: 7bddad96a8159e1a85dc9ed91a06c48b
+      size: 4187
     - path: src/evaluation/model_evaluation.py
       hash: md5
       md5: 9f215c8a7499c566ea343c622bb6751f
@@ -66,9 +74,9 @@ stages:
     outs:
     - path: reports/figures/cm.png
       hash: md5
-      md5: 259ae8463c55a1273f63990b288a3874
-      size: 13358
+      md5: c691fae5882540482dddaa58250df798
+      size: 13279
     - path: reports/metric_info.json
       hash: md5
-      md5: 94baa32d9876db4c0446a17b774fcaa0
+      md5: 9fcb5b8c606be6413e31b9593d9ca685
       size: 168

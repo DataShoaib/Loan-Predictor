@@ -25,6 +25,7 @@ def clean_data(data:pd.DataFrame)-> pd.DataFrame:
         data.dropna(inplace=True)
         data.drop_duplicates(inplace=True)
         data.columns = data.columns.str.strip()
+        data.drop(columns=['loan_id'],inplace=True)
         # we can replace the negative value with 0 as it is not possible to have negative assets value 
         data['residential_assets_value']= data['residential_assets_value'].apply(lambda x:0 if x<0 else x)
         logger.info('data cleaning process completed successfully')

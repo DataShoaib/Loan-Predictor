@@ -15,6 +15,9 @@ stages:
     - uttils/logger.py
     outs:
     - models/model_pipe.pkl
+    - data/test_data/x_test.csv
+    - data/test_data/y_test.csv
+
   model_evaluation:
     cmd: python -m src.evaluation.model_evaluation
     deps:

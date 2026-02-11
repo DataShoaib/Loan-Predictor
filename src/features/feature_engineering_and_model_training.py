@@ -91,7 +91,7 @@ def feature_engineering_and_model_training(x_train:pd.DataFrame,y_train:pd.DataF
             'education'
         ]),
 
-        ('self_employed_bin', OneHotEncoder(drop='if_binary'), [
+        ('self_employed_bin', OneHotEncoder(drop='if_binary',handle_unknown='ignore'), [
             'self_employed'
         ])
        ],
