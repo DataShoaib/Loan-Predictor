@@ -9,7 +9,7 @@ from uttils.logger import get_logger
 import os
 import pickle
  
-logger=get_logger('feature_engineering') 
+logger=get_logger('model_training') 
 
 def load_data(data_path:str)->pd.DataFrame:
     try:

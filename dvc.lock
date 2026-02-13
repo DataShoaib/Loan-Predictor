@@ -80,3 +80,31 @@ stages:
       hash: md5
       md5: 9fcb5b8c606be6413e31b9593d9ca685
       size: 168
+  model_training:
+    cmd: python -m src.model.model_pipe
+    deps:
+    - path: data/processed/cleaned_data.csv
+      hash: md5
+      md5: b46929c88491060ae23dff070a8f262f
+      size: 363911
+    - path: src/model/model_pipe.py
+      hash: md5
+      md5: a47fde11e57becaccbf55523408a21b8
+      size: 5199
+    - path: uttils/logger.py
+      hash: md5
+      md5: 1fe9d70bdf8f09563becc74a11c04afb
+      size: 1353
+    outs:
+    - path: data/test_data/x_test.csv
+      hash: md5
+      md5: fb7f4a5c7d3fd5bdf089f7d4f33a0bf3
+      size: 64469
+    - path: data/test_data/y_test.csv
+      hash: md5
+      md5: f7c4447f2ff0d1c22b0cd29e3ab125f4
+      size: 2575
+    - path: models/model_pipe.pkl
+      hash: md5
+      md5: 7bddad96a8159e1a85dc9ed91a06c48b
+      size: 4187

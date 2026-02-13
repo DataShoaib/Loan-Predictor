@@ -7,11 +7,11 @@ stages:
     - uttils/logger.py
     outs:
     - data/processed/cleaned_data.csv
-  feature_engineering_and_model_training:
-    cmd: python -m src.features.feature_engineering_and_model_training
+  model_training:
+    cmd: python -m src.model.model_pipe
     deps:
     - data/processed/cleaned_data.csv
-    - src/features/feature_engineering_and_model_training.py
+    - src/model/model_pipe.py
     - uttils/logger.py
     outs:
     - models/model_pipe.pkl
