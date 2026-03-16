@@ -4,7 +4,7 @@ import requests
 
 # Config
 
-API_URL = "http://127.0.0.1:8000/predict"  # FastAPI endpoint
+API_URL = "https://loan-predictor-latest.onrender.com/predict"  # FastAPI endpoint
 
 st.set_page_config(page_title="Loan Approval Predictor", layout="centered")
 
