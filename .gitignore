@@ -18,5 +18,5 @@ data/processed/
 
 # DVC internals (lock file auto generated)
 .dvc/cache/
-models/
+# models/
 data/test_data/
