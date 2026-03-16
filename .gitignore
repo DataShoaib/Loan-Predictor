@@ -20,3 +20,4 @@ data/processed/
 .dvc/cache/
 # models/
 data/test_data/
+logs/
