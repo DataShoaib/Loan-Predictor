@@ -356,10 +356,10 @@ dvc metrics show
 
 | Metric | Score |
 |--------|-------|
-| **Accuracy** | ~98% |
-| **Precision** | ~97% |
-| **Recall** | ~98% |
-| **ROC-AUC** | ~0.99 |
+| **Accuracy** | ~91% |
+| **Precision** | ~96% |
+| **Recall** | ~89% |
+| **ROC-AUC** | ~0.96 |
 
 > *Evaluated on a stratified held-out test set. CIBIL score and `loan_to_income` ratio are the strongest predictors of approval outcome.*
 
@@ -398,19 +398,16 @@ dvc metrics show
 
 | Project | Stack | Highlights |
 |---------|-------|-----------|
-| [🏥 Health Insurance MLOps Predictor](https://github.com/<username>/health-insurance-mlops) | DVC · MLflow · Docker · AWS ECR/S3 · GitHub Actions | Full MLOps pipeline with CI/CD, cloud deployment, and Prometheus/Grafana monitoring |
-| [📱 Telecom Churn Predictor](https://github.com/<username>/telecom-churn-predictor) | Streamlit · SHAP · Groq LLM | Explainable churn prediction with SHAP visualizations and LLM-generated plain-English summaries |
-| [📄 HR Policy RAG System](https://github.com/<username>/hr-policy-rag) | LangChain 0.3+ · ChromaDB · RAGAS | Production RAG pipeline with LCEL chains, semantic retrieval, and RAGAS-based evaluation |
+| [🏥 Health Insurance MLOps Predictor](https://github.com/DataShoaib/Health-Insurance-Premium-Predictor) | DVC · MLflow · Docker · AWS ECR/S3 · GitHub Actions | Full MLOps pipeline with CI/CD, cloud deployment, and Prometheus/Grafana monitoring |
+| [📱 Telecom Churn Predictor](https://github.com/DataShoaib/Ai-Telecom-Churn-Predictor) | Streamlit · SHAP · Groq LLM | Explainable churn prediction with SHAP visualizations and LLM-generated plain-English summaries |
+| [📄 HR Policy RAG System](https://github.com/DataShoaib/hr-policy-chatbot-rag) | LangChain 0.3+ · ChromaDB · RAGAS | Production RAG pipeline with LCEL chains, semantic retrieval, and RAGAS-based evaluation |
 
 ---
 
 ## 👤 Author
 
 **Md Shoaib**  
-🔗 [LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
+🔗 [LinkedIn](https://linkedin.com/in/md-shoaib-akhtar-/) · [GitHub](https://github.com/DataShoaib)
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License. See [LICENSE](./LICENSE) for details.
